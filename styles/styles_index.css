@@ -55,4 +55,9 @@ nav{
     padding-top: 15px;
     color: white;
     text-decoration: none;
+    transition: 0.5s;
+}
+
+.options a:hover{
+    color: rgb(110, 110, 255);
 }
