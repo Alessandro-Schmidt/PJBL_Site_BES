@@ -61,3 +61,27 @@ nav{
 .options a:hover{
     color: rgb(110, 110, 255);
 }
+
+.info_puc{
+    justify-content: space-between;
+    display: flex;
+    height: 584px;
+}
+
+.img_faxada_pucpr{
+    height: 100px;
+}
+
+.s_v_t{
+    font-size: 90px;
+    padding-left: 15px;
+}
+
+.s_v_t strong {
+    color: #9d1847;
+}
+
+.s_v_t p{
+    font-size: 23px;
+}
+
