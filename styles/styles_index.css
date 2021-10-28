@@ -43,7 +43,16 @@ nav{
 }
 
 
-.division{
-    background-color: black;
-    height: 14px;
+.options{
+    background-color: #9d1847;
+    height: 50px;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+
+.options a {
+    padding-top: 15px;
+    color: white;
+    text-decoration: none;
 }
