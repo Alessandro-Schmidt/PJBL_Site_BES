@@ -7,19 +7,24 @@ body{
 }
 
 nav{
-    background-color: white;
+    background-color: #9d1847;
     justify-content: space-evenly;
     display: flex;
     height: 150px
 }
 
-.logo_nav img{
-    height: 150px;
+.logo_nav{
+    display: flex;
 }
 
-.title_nav{
+.logo_nav p {
+    color: white;
     font-size: 18pt;
-    padding-top: 60px;
+    padding-top: 25px;
+}
+
+.logo_nav img{
+    height: 150px;
 }
 
 .btn_entrar_nav{ 
@@ -33,7 +38,7 @@ nav{
 
 .text_btn a {
     padding-top: 60px;
-    color: #9d1847;
+    color: white;
     text-decoration: none;
 }
 .img_btn img{
