@@ -133,10 +133,47 @@ nav{
     margin-top: 0px;
 }
 
-.transicao{
-    background-color: black;
-    height: 125px;
+.textos_inspiracionais{
+    height: 300px;
+    display: flex;
+    margin: 0%;
+    padding-top: 20px;
 }
+
+.texto_dois p{
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 20px;
+    color: grey;
+    text-justify: inter-word;
+    transition: 0.5s;
+}
+.texto_um p{
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 20px;
+    color: grey;
+    transition: 0.5s; 
+}
+
+.texto_dois p:hover{
+    color: black;
+}
+
+.texto_um p:hover{
+    color: black;
+}
+
+.texto_dois p:hover strong{
+    color: #9d1847;
+}
+
+.texto_um p:hover strong{
+    color: #9d1847;
+}
+
 
 .options{
     background-color: #9d1847;
