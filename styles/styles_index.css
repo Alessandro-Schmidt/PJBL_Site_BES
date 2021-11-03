@@ -147,7 +147,7 @@ nav{
     font-size: 20px;
     color: grey;
     text-justify: inter-word;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 .texto_um p{
     text-align: center;
@@ -155,7 +155,7 @@ nav{
     margin-right: 25px;
     font-size: 20px;
     color: grey;
-    transition: 0.5s; 
+    transition: 0.3s; 
 }
 
 .texto_dois p:hover{
