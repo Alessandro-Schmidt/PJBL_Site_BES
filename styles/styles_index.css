@@ -42,7 +42,8 @@ nav{
     text-decoration: none;
 }
 .img_btn img{
-    height: 150px;
+    padding-top: 5px;
+    height: 130px;
 }
 .texto_acima_galeria{
     text-align: center;
