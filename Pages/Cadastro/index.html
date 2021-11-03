@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>BES PUCPR - Cadastro</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!--Ícone da barra de navegação-->
+    <link rel="shortcut icon" href="../../img/logo_vazada_vermelha.png" type="image/x-icon">
+
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/95b08d3090.js" crossorigin="anonymous"></script>
+
+    <!--Material Design Lite-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+  </head>
+  <body>
+
+        <div class="box">
+            <form>
+                <h3 class="box-title">Cadastro</h3>
+                <p class="legend">Faça o seu cadastro e conheça este grupo <strong>BES</strong>t</p>
+                
+                <div class="image">
+                    <label for="input-foto" id="foto-perfil"><i class="fa fa-user" aria-hidden="true"></i></label>
+                    <input type="file" name="foto-perfil" id="input-foto" onchange="AdicionarImagem()">
+                    <legend class="sucesso-foto">Uau! Que pessoa bonita!&#128525;</legend>
+                </div>
+                
+                <div class="input-select">
+                    <label for="tipo">Eu sou:</label>
+                    <select name="tipo" class="tipo">
+                        <option class="option-tipo" value="1">Aluno</option>
+                        <option class="option-tipo" value="2">Professor</option>
+                        <option class="option-tipo" value="3">Coordenador</option>
+                    </select>
+                </div>
+
+                <div class="input-form">
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                        <input class="mdl-textfield__input" type="text" id="nome">
+                        <label class="mdl-textfield__label" for="nome">Nome Completo</label>
+                      </div>
+                </div>
+
+                <div class="input-form">
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                        <input class="mdl-textfield__input" type="email" id="email">
+                        <label class="mdl-textfield__label" for="nome">Email</label>
+                    </div>
+                </div>
+
+                <div class="input-form">
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="senha">
+                        <input class="mdl-textfield__input" type="text">
+                        <label class="mdl-textfield__label" for="nome" id="Senha">Senha</label>
+                      </div>
+                </div>
+
+                <button type="submit" class="btn">Cadastrar-se</button>
+                  
+
+            </form>
+        </div>
+    
+    <!-- Optional JavaScript -->
+    <script src="js/script.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

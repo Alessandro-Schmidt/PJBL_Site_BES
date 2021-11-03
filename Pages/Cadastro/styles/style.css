@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #9D1847;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #6e1131;
+}
+
+.box {
+    width: 45%;
+    height: 95%;
+    background-color: #FFF;
+    box-shadow: 4px 4px 19px 5px rgba(0,0,0,0.79);
+    border-radius: 15px;
+    padding: 15px;
+    justify-content:center;
+    text-align: center;
+}
+
+form{
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+.box-title{
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.legend{
+    font-size: 20px;
+    letter-spacing:2px;
+    margin-bottom: 20px;
+    color: #9D1847;
+}
+
+input[type='file']{
+    display: none;
+}
+
+.fa-user{
+    color: #FFF;
+}
+
+#foto-perfil{
+    width: 100px;
+    height: 100px;
+    background-color: #9D1847;
+    cursor: pointer;
+    font-size: 40px;
+    border: 2px solid #9D1847;
+    padding: 25px 30px 25px 30px;
+    transition: 0.3s;  
+}
+
+#foto-perfil:hover{
+    width: 100px;
+    height: 100px;
+    background-color: #9D1847;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 40px;
+    border: 2px solid #FFF;
+    padding: 25px 30px 25px 30px;
+    border-radius: 50px;   
+}
+
+.foto-perfil{
+    margin-right: 10px;
+    
+}
+
+.sucesso-foto{
+    display: none;
+    font-size: 16px;
+    letter-spacing: 2px;
+    animation: fadeIn 1.5s linear;
+    
+}
+
+.input-select{
+    display: block;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.tipo{
+    width:30%;
+    background-color:transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #9D1847;
+    text-align: center;
+    cursor: pointer;
+}
+
+.option-tipo{
+    color: #6e1131;
+}
+
+input{
+    display: block;
+}
+
+.mdl-textfield__label{
+    color: #9D1847 !important;
+}
+
+.mdl-textfield__input{  
+    outline: none !important;
+    font-size: 18px !important;
+    color: #000 !important;
+}
+
+.mdl-textfield__input{
+    height: 40px !important;
+}
+
+.is-focused .mdl-textfield__input{
+    border: none !important;
+}
+
+.btn{
+    width: 70%;
+    margin-top: 10px;
+    height: 40px;
+    background-color: #9D1847;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 16px;
+    border: 2px solid #9D1847;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    width: 70%;
+    margin-top: 10px;
+    background-color: #9D1847;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-size: 16px;
+    border: 2px solid #FFF;
+    border-radius: 20px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
