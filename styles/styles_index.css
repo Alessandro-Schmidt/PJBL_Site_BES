@@ -32,19 +32,25 @@ nav{
     display: flex;
 }
 
-.text_btn{
+.menu-acessos{
     padding-top: 60px;
+    justify-content: space-between;
 }
 
-.text_btn a {
+.menu-acessos a {
     padding-top: 60px;
     color: white;
     text-decoration: none;
 }
-.img_btn img{
-    padding-top: 5px;
-    height: 130px;
+
+.menu-acessos a{
+    font-size: 20px;
 }
+
+.menu-acessos a{
+    margin-left: 20px;
+}
+
 .texto_acima_galeria{
     text-align: center;
 }
@@ -59,7 +65,7 @@ nav{
     color: #9d1847;
 }
 
-.meio_site{
+.carrosel{
     display: flex;
 }
 
@@ -106,7 +112,7 @@ nav{
 }
 
 
-.oquefaz{
+.texto-carrosel{
     margin: 0;
     padding: 0%;
     font-size: 40px;
@@ -116,20 +122,20 @@ nav{
     height: 360px;
 }
 
-.texto_oquefaz{
+.texto{
     height: 200px;
     margin-top: 0%;
 }
 
-.texto_oquefaz p{
+.texto p{
     color: white;
    margin-left: 40px;
 }
-.pointer_oqf{
+.imagem-seta{
     height: 160px;
 }
 
-.pointer_oqf img{
+.imagem-seta img{
     height: 160px;
     margin-top: 0px;
 }
