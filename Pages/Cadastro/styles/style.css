@@ -16,8 +16,8 @@ body {
     background-color: #6e1131;
 }
 
-.box {
-    width: 45%;
+.container {
+    width: 60%;
     height: 95%;
     background-color: #FFF;
     box-shadow: 4px 4px 19px 5px rgba(0,0,0,0.79);
@@ -35,7 +35,7 @@ form{
 
 .box-title{
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     letter-spacing: 2px;
 }
 
@@ -110,8 +110,8 @@ input[type='file']{
     color: #6e1131;
 }
 
-input{
-    display: block;
+.inputs{
+    display: flex;
 }
 
 .mdl-textfield__label{
@@ -132,31 +132,64 @@ input{
     border: none !important;
 }
 
+.icone-senha{
+    font-size: 20px;
+    color: #000;
+    cursor: pointer;
+}
+
+#codigoValidacao{
+    width: 24%;
+    height: 45px;
+    font-size:30px;
+    margin-top: 20px;
+    outline:none;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    letter-spacing: 12px;
+    text-align: center;
+}
+
+/*Retira as setas dos inputs do tipo number */
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+.fa-question-circle{
+    font-size: 20px;
+}
+
 .btn{
     width: 70%;
-    margin-top: 10px;
+    margin-top: 40px !important;
     height: 40px;
-    background-color: #9D1847;
+    background-color: #9D1847 !important;
     color: #FFF;
     text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 2px;
-    font-size: 16px;
+    font-weight: bold !important;
+    letter-spacing: 2px !important;
+    font-size: 16px !important;
     border: 2px solid #9D1847;
-    transition: 0.5s;
+    transition: 0.5s !important;
 }
 
 .btn:hover{
     width: 70%;
-    margin-top: 10px;
-    background-color: #9D1847;
+    margin-top: 40px !important;
+    background-color: #9D1847 !important;
     color: #FFF;
     text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 4px;
-    font-size: 16px;
+    font-weight: bold !important;
+    letter-spacing: 4px !important;
+    font-size: 16px !important;
+    border: none !important;
     border: 2px solid #FFF;
-    border-radius: 20px;
+    border-radius: 20px !important;
 }
 
 @keyframes fadeIn {

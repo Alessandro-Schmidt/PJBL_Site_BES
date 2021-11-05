@@ -30,54 +30,91 @@
 
   </head>
   <body>
-
-        <div class="box">
-            <form>
-                <h3 class="box-title">Cadastro</h3>
-                <p class="legend">Faça o seu cadastro e conheça este grupo <strong>BES</strong>t</p>
-                
-                <div class="image">
-                    <label for="input-foto" id="foto-perfil"><i class="fa fa-user" aria-hidden="true"></i></label>
-                    <input type="file" name="foto-perfil" id="input-foto" onchange="AdicionarImagem()">
-                    <legend class="sucesso-foto">Uau! Que pessoa bonita!&#128525;</legend>
-                </div>
-                
-                <div class="input-select">
-                    <label for="tipo">Eu sou:</label>
-                    <select name="tipo" class="tipo">
-                        <option class="option-tipo" value="1">Aluno</option>
-                        <option class="option-tipo" value="2">Professor</option>
-                        <option class="option-tipo" value="3">Coordenador</option>
-                    </select>
-                </div>
-
-                <div class="input-form">
-                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                        <input class="mdl-textfield__input" type="text" id="nome">
-                        <label class="mdl-textfield__label" for="nome">Nome Completo</label>
-                      </div>
-                </div>
-
-                <div class="input-form">
-                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                        <input class="mdl-textfield__input" type="email" id="email">
-                        <label class="mdl-textfield__label" for="nome">Email</label>
+    <div class="container">
+                <form>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3 class="box-title">Cadastro</h3>
+                            <p class="legend">Faça o seu cadastro e conheça este grupo <strong>BES</strong>t</p>
+                        </div>
                     </div>
-                </div>
-
-                <div class="input-form">
-                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="senha">
-                        <input class="mdl-textfield__input" type="text">
-                        <label class="mdl-textfield__label" for="nome" id="Senha">Senha</label>
-                      </div>
-                </div>
-
-                <button type="submit" class="btn">Cadastrar-se</button>
-                  
-
-            </form>
-        </div>
+                    
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="image">
+                                <label for="input-foto" id="foto-perfil"><i class="fa fa-user" aria-hidden="true"></i></label>
+                                <input type="file" name="foto-perfil" id="input-foto" onchange="AdicionarImagem()">
+                                <legend class="sucesso-foto">Uau! Que pessoa bonita!&#128525;</legend>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="input-select">
+                                <label for="tipo">Eu sou:</label>
+                                <select name="tipo" class="tipo">
+                                    <option class="option-tipo" value="1">Aluno</option>
+                                    <option class="option-tipo" value="2">Professor</option>
+                                    <option class="option-tipo" value="3">Coordenador</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
     
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                    <input class="mdl-textfield__input" type="text" id="nome" autocomplete="off">
+                                    <label class="mdl-textfield__label" for="nome">Nome Completo</label>
+                                  </div>
+                            </div>
+            
+                            <div class="col-md-6">
+                                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                    <input class="mdl-textfield__input" type="email" id="email" autocomplete="off">
+                                    <label class="mdl-textfield__label" for="email">Email</label>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                    <input class="mdl-textfield__input" type="password" id="senha" autocomplete="off" minlength="8">
+                                    <label class="mdl-textfield__label" for="senha">Senha</label>
+                                </div>
+                                <i class="fa fa-eye icone-senha" aria-hidden="true" id="visualizacaoSenha" onclick="MostrarSenha(this)"></i>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" >
+                                    <input class="mdl-textfield__input" type="password" id="confirmacaoSenha" autocomplete="off" minlength="8">
+                                    <label class="mdl-textfield__label" for="confirmacaoSenha">Confirmação de Senha</label>
+                                </div>
+                                <i class="fa fa-eye icone-senha" id="visualizacaoConfirmacaoSenha" aria-hidden="true" onclick="MostarConfirmacaoSenha(this)"></i>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="number" name="codigoValidacao" id="codigoValidacao" placeholder="PIN">
+                                <i class="far fa-question-circle" aria-hidden="true" data-toggle="tooltip" data-html="true" title='Apenas os alunos monitores de BES possuem este PIN, peça a eles este código!'></i>
+                            </div>
+                        </div>
+                    
+    
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!-- Accent-colored raised button with ripple -->
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent btn">
+                                Cadastrar-se
+                            </button>
+                        </div>
+                    </div>
+                      
+    
+        </form>
+    </div>
     <!-- Optional JavaScript -->
     <script src="js/script.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
