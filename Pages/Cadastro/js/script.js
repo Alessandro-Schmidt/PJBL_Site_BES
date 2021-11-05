@@ -22,7 +22,7 @@ function MostrarSenha(e){
     }
 }
 
-function MostarConfirmacaoSenha(e){
+function MostrarConfirmacaoSenha(e){
     let input = document.querySelector('#confirmacaoSenha');
 
     if(input.getAttribute('type') == 'password') {
