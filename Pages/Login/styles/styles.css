@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #9D1847;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #6e1131;
+}
+
+.container {
+    width: 40%;
+    height: 95%;
+    background-color: #FFF;
+    box-shadow: 4px 4px 19px 5px rgba(0,0,0,0.79);
+    border-radius: 15px;
+    padding: 15px;
+    justify-content:center;
+    text-align: center;
+}
+
+form{
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+.box-title{
+    font-weight: bold;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+}
+
+.legend{
+    font-size: 20px;
+    letter-spacing:2px;
+    margin-bottom: 20px;
+    color: #9D1847;
+}
+
+#logo-curso{
+    width: 35%;
+}
+
+.mdl-textfield__label{
+    color: #9D1847 !important;
+}
+
+.mdl-textfield__input{  
+    outline: none !important;
+    font-size: 18px !important;
+    color: #000 !important;
+}
+
+.mdl-textfield__input{
+    height: 40px !important;
+}
+
+.is-focused .mdl-textfield__input{
+    border: none !important;
+}
+
+.icone-senha{
+    font-size: 20px;
+    color: #000;
+    cursor: pointer;
+}
+
+.btn{
+    width: 70%;
+    margin-top: 40px !important;
+    height: 40px;
+    background-color: #9D1847 !important;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: bold !important;
+    letter-spacing: 2px !important;
+    font-size: 16px !important;
+    border: 2px solid #9D1847;
+    transition: 0.5s !important;
+}
+
+.btn:hover{
+    width: 70%;
+    margin-top: 40px !important;
+    background-color: #9D1847 !important;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: bold !important;
+    letter-spacing: 4px !important;
+    font-size: 16px !important;
+    border: none !important;
+    border: 2px solid #FFF;
+    border-radius: 20px !important;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
