@@ -1,13 +1,3 @@
-function AdicionarImagem(){
-    let inputFoto = $('#input-foto');
-    let sucessoFoto = $('.sucesso-foto');
-
-    const [file] = inputFoto.files
-    if (file) {
-       sucessoFoto.style.display = 'block'; 
-    }
-}
-
 function MostrarSenha(e){
     let input = document.querySelector('#senha');
 
@@ -34,4 +24,9 @@ function MostrarConfirmacaoSenha(e){
         e.classList.remove('fa-eye-slash');
         e.classList.add('fa-eye');
     }
+}
+
+function ValidarEmail(email){
+        let padraoEmail =  /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/
+        return padraoEmail.test(email); 
 }
