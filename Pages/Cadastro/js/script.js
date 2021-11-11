@@ -64,7 +64,6 @@ function CadastrarUsuario(event){
     let codigoValidacao = $('#codigoValidacao').val();
 
     if (VerificarTipoAcesso(tipo_acesso, codigoValidacao) && VerificarSenhas(senha, confirmacaoSenha) && ValidarEmail(email) ) {
-        alert("Entrou Ajax");
         $.ajax({
 			type: "POST",
 			dataType:"json",
