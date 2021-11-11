@@ -19,8 +19,10 @@
     width: 6%;
 }
 
-.navbar i{
+.navbar a i{
     font-size: 30px;
+    text-decoration: none;
+    color: #FFF;
 }
 
 /*Cards*/
