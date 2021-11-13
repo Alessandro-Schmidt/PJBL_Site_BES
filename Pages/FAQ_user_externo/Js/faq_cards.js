@@ -5,16 +5,14 @@ window.onload = function(){
 }
 
 function fLocalCriaCards(){
-    for (var i=0; i<array_filmes.length; i++){
+    for (var i=0; i<array_perguntas_respostas.length; i++){
         var conteudo = ""; 
-        conteudo+='<div class="container_FAQ">';
         conteudo+='<div class="card_pergunta">';
         conteudo+='<div class="title_pergunta">';
         conteudo+='<p>'+array_perguntas_respostas[i][0]+'</p>';
         conteudo+='</div>';
         conteudo+='<div class="resposta_pergunta">';
         conteudo+='<p>'+array_perguntas_respostas[i][1]+'</p>';
-        conteudo+='</div>';
         conteudo+='</div>';
         conteudo+='</div>';
         document.getElementById("perguntas").innerHTML+=conteudo; 
