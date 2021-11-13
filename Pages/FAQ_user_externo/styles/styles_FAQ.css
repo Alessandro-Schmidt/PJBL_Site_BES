@@ -51,25 +51,72 @@ main{
 }
 
 .container_FAQ{
+
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-bottom: 10px;
     background-color: lightgrey;
-    width: 800px;
-    height: 900px;
-    margin-left: 320px;
+    margin-left: 30px;
     margin-top: 50px;
+    width: 1350px;
+    float: left;
+    display: flex;
 }
 
-.conteudo_FAQ{
-    width: 750px;
-    height: 600px;
-    background-color: green;
-    margin-left: 25px;
-    
+.card_pergunta{
+    width: 550px;
+    background-color: white;
+    height: 350px;
+    border: #9d1847 solid;
+    padding-left: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 3px;
+    margin-right: 5px;
+    animation: 5s ease;
 }
 
-.deixar_pergunta{
-    width: 750px;
-    height: 280px;
-    background-color: blue;
-    margin-left: 25px;
-    margin-top: 0%;
+.card_pergunta:hover{
+    border: solid white;
+    background-color: #9d1847;
+    color: white;
+}
+
+.card_pergunta:hover .title_pergunta p{
+    color: white;
+}
+
+.title_pergunta p{
+    color: #9d1847;
+    text-align: center;
+    font-size: 21pt;
+    animation: 5s ease;
+}
+
+
+
+.resposta_pergunta p{
+    text-align: center;
+    font-size: 15pt;
+}
+
+.title_pagina{
+    margin-left: 15px;
+    color: #9d1847;
+    padding-top: 25px;
+}
+
+.title_pagina p {
+    font-size: 55pt;
+}
+
+.subtitle_pagina {
+    float: right;
+    margin-right: 15px;
+    padding-top: 35px;
+}
+
+.subtitle_pagina p{
+    font-size: 35pt;
 }
