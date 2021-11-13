@@ -51,25 +51,20 @@ main{
 }
 
 .container_FAQ{
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-bottom: 10px;
     background-color: lightgrey;
-    width: 800px;
+    width: 1200px;
     height: 900px;
-    margin-left: 320px;
+    margin-left: 125px;
     margin-top: 50px;
 }
 
-.conteudo_FAQ{
-    width: 750px;
-    height: 600px;
-    background-color: green;
-    margin-left: 25px;
-    
-}
-
-.deixar_pergunta{
-    width: 750px;
-    height: 280px;
+.card_pergunta{
+    width: 450px;
     background-color: blue;
-    margin-left: 25px;
-    margin-top: 0%;
+    height: 150px;
+
 }
