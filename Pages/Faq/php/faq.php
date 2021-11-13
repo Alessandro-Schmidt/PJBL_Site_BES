@@ -30,11 +30,6 @@
     
     }
 
-
-
-
-
-
     //Encerra a conexão
     mysqli_close($conn);
 
