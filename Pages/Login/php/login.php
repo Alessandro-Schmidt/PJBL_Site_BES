@@ -31,6 +31,8 @@
         echo json_encode(false);
     }
 
-
+    
+    //Encerra a conexão
+    mysqli_close($conn);
 
 ?>
