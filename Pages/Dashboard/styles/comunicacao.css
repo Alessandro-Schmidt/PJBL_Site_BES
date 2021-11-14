@@ -1,0 +1,60 @@
+.comunicacao_institucional{
+    padding-top: 15px;
+    background-color: lightgrey;
+    margin-top: 35px;
+    padding-left: 25px;
+    padding-right: 35px;
+    width: 100%;
+    padding-bottom: 35px;
+}
+
+.title_comunicacao{
+    margin-top: 35px;
+}
+
+.title_comunicacao p{
+    font-size: 55pt;
+}
+
+.subtitle_comunicacao p{
+    padding-top: 25px;
+    font-size: 35pt;
+    color: #9d1847;
+}
+
+
+.card_pergunta{
+    margin-left: 65px;
+    border: #9d1847 solid;
+    margin-top: 30px;
+    padding-top: 15px;
+    width: 1200px;
+    background-color: darkgrey;
+    padding-left: 40px;
+    padding-bottom: 15px;
+}
+
+.imagem_comunicacao img{
+    width: 1120px;
+}
+
+.responsavel_comunicacao p strong{
+    background-color: #9d1847;
+    color: white;
+}
+
+.title_card_comunicacao p strong{
+    background-color: white;
+    color: #9d1847;
+    font-size: 20pt;
+}
+
+
+.descricao_comunicacao{
+    width: 1120px;
+    margin-top: 5px;
+}
+
+.descricao_comunicacao p{
+    font-size: 12pt;
+}
