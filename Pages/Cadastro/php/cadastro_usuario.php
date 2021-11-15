@@ -24,11 +24,9 @@
     if(@mysqli_num_rows($search) > 0){
         echo json_encode("Este usuário já tem um cadastro realizado.");
     }else{
-        mysqli_query($conn, "INSERT INTO usuarios (nome, email, senha, tipo_acesso) VALUES ('{$nome}', '{$email}', '{$senha}', '{$tipo_acesso}');");
+        mysqli_query($conn, "INSERT INTO usuarios (nome, email, senha, tipo_acesso) VALUES ('{$nome}', '{$email}', '{$hash_password}', '{$tipo_acesso}');");
         echo json_encode("Cadastro realizado com sucesso");
     }
-
-     
 
     //Encerra a conexão
     mysqli_close($conn);
