@@ -1,0 +1,84 @@
+/*Geral*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Navbar*/
+.navbar{
+    background-color: #9d1847;
+    justify-content: center;
+    text-align: center;
+    color: #FFF;
+    justify-content: space-between;
+}
+
+.navbar img{
+    width: 6%;
+}
+
+.navbar a i{
+    font-size: 30px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+/*Conteúdo*/
+.title_disciplina{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.title_disciplina p{
+    font-size:30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #9d1847;
+}
+
+.subtitle-conteudo{
+    text-align: center;
+    margin-top: 5%;
+    font-size:20px;
+    color: #000;
+}
+
+.link-dropbox{
+    text-align: center;
+}
+
+.conteudos{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 5%;
+}
+
+.conteudos a{
+    text-align: center;
+    font-size: 40px;
+    color: #0061FF;
+}
+
+.conteudos a:hover{
+    text-align: center;
+    font-size: 40px;
+    color: #0061FF;
+}
+
+/*Barra de rolagem*/
+
+::-webkit-scrollbar {
+    width: 20px;
+    height: 10px;
+    }
+    
+    
+    ::-webkit-scrollbar-track {
+    background:#F9F9F9;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+    background: #9d1847;
+    }
