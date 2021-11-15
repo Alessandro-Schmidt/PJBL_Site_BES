@@ -58,3 +58,19 @@
     text-transform: uppercase;
     letter-spacing: 4px;
 }
+
+/*Barra de rolagem*/
+
+::-webkit-scrollbar {
+    width: 20px;
+    height: 10px;
+    }
+    
+    
+    ::-webkit-scrollbar-track {
+    background:#F9F9F9;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+    background: #9d1847;
+    }
