@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <title>BES PUCPR - Dashboard</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="../Dashboard/styles/styles.css">
+    <link rel="stylesheet" href="styles/deans_list.css">
+
+    <!--Ícone da barra de navegação-->
+    <link rel="shortcut icon" href="../../img/logo_vazada_vermelha.png" type="image/x-icon">
+
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/95b08d3090.js" crossorigin="anonymous"></script>
+
+    <!--Material Design Lite-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <img src="../Dashboard/img/fundo_vermelho.png" alt="Logo BES">
+            <h3 class="title">Dean's List</h3>
+            <a href="../../index.html"><i class="fa fa-sign-out" aria-hidden="true"></i></a>
+        </nav>
+    </header>
+
+    <main>
+      <div class="title_deans">
+          Dean's List - Portifólio de talentos PUCPR
+      </div>
+      <div class="explicacao">
+        <p>Todos os anos a Escola Politécnica reconhece os estudantes que tiveram o melhor desempenho no período letivo. Esses acadêmicos passam a fazer parte da Dean´s List, a Lista do Decano.<br> <br>
+
+          A Escola Politécnica iniciou, em 2013, a implantação de novos Projetos Pedagógicos de Curso (PPC), os quais estabelecem o perfil do egresso da Escola. <br><br>
+          
+          O currículo, as metodologias de ensino/aprendizagem e as avaliações foram projetados para desenvolver o perfil do egresso, assim como as estruturas dos eixos de supervisão e todos os mecanismos de suporte ao estudante. Professores são formados em metodologias de ensino inovadoras e fóruns de debate sobre a qualidade de ensino mobilizam o corpo docente.
+          <br><br>
+          No entanto, sem a mobilização dos estudantes, parceiros nesse processo, os esforços não são suficientes para o alcance dos objetivos. Como mobilizar os estudantes para que se apliquem no processo de desenvolvimento de competências? Propõe-se que o Portfólio de Talentos seja um estímulo. Trata-se de uma lista anual de estudantes de destaque da Escola Politécnica.
+          <br><br>
+          São considerados destaque os estudantes que alcançam uma pontuação mínima dentro de um rol de atividades, classificadas em seis dimensões, inspiradas no perfil do egresso da Escola e em demandas de mercado, como: cidadania, formação técnico-científica, formação permanente, produção técnico-científica, comunicação, empreendedorismo. As dimensões têm limite máximo de pontuação, com o objetivo de garantir que o estudante tenha bom desempenho em algumas delas para ser considerado um talento.
+          <br> <br>
+          Os critérios de elegibilidade para o Portfólio de Talentos, os indicadores adotados em cada dimensão e as respectivas pontuações são detalhados no regulamento de cada ano. Alguns indicadores são avaliados mediante comprovantes, que podem necessitar de pareceres de qualidade emitidos pelas pessoas que acompanham as atividades. Algumas das atividades têm pontuação duradoura, o que significa que o estudante as levará consigo por quatro anos consecutivos, com depreciação de 25% ao ano. Não há limitação de vagas no portfólio anual e não há classificação dos estudantes.
+          <br><br>
+          A qualquer momento, durante a graduação, um estudante pode estar no portfólio anual, assim como sua presença em um ano não garante a presença em um próximo. Não há restrição de período para entrada no portfólio.</p>
+      </div>
+      <div class="btn_regulamento">
+        <a href="https://static.pucpr.br/escola-politecnica/2021/08/regulamento-do-portfolio-de-talentos.pdf?_ga=2.47867488.676398128.1636923698-1339781448.1622863146"><button>Confira o regulamento</button></a>
+      </div>
+      <div class="title_deans">
+        Simule sua pontuação!
+      </div>
+      <div class="container_pontos">
+        <div class="score" id="score">
+          <p>Mínimo: 500 pontos</p>
+        </div>
+        <div class="opcoes_marcar">
+          <ol>
+            <li>Cidadania* (200)</li>
+            <div class="inputs_lista">
+              <input type="checkbox" id="voluntario" name="voluntario" >
+              <label for="voluntario">Trabalho voluntário (50 pontos)</label>
+            </div>
+            <div class="inputs_lista">
+              <input type="checkbox" id="monitoria" name="monitoria">
+              <label for="monitoria">Monitoria (50 pontos)</label>
+            </div>
+            <div class="inputs_lista">
+              <input type="checkbox" id="cultura" name="cultura">
+              <label for="cultura">Participação em evento Cultural (50 pontos)</label>
+            </div>
+            <div class="inputs_lista">
+              <input type="checkbox" id="esporte" name="esporte">
+              <label for="esporte">Participação em competições oficiais, com ranking definido por Federações (50 pontos)</label>
+            </div>
+            <div class="inputs_lista">
+              <input type="checkbox" id="representante_turma" name="representante_turma">
+              <label for="representante_turma">Representação de turma (50 pontos)</label>
+            </div>
+            <li>Desempenho Acadêmico (200)</li>
+            <div class="inputs_lista">
+              <input type="number" name="IRA" id="IRA">
+              <label for="IRA">Digite seu Índice de Rendimento Acadêmico (IRA) valor: (IRAx20)</label>
+            </div>
+            <div class="inputs_lista">
+              <input type="number" name="enade" id="enade">
+              <label for="enade">pontuação atribuída ao ENADE</label>
+            </div>
+            <li>Formação Permanente (200)</li>
+            <div class="inputs_lista">
+              <input type="checkbox" id="estagio" name="estagio">
+              <label for="estagio">Estágio não obrigatório (50 pontos)</label>
+            </div>
+            <div class="inputs_lista">
+              <input type="number" name="feiras" id="feiras">
+              <label for="feiras">Participação em congresos, feiras e outros eventos de formação (20 pontos cada)</label>
+            </div>
+            <li>Formação técnico-científica (200)</li>
+            <div class="inputs_lista">
+              <input type="checkbox" id="pibic" name="pibic" >
+              <label for="pibic">Participação em projeto do PIBIC ou PIBIT concluído e apresentado no SEMIC. (100 pontos)</label>
+            </div>
+            <div class="inputs_lista">
+              <input type="checkbox" id="projeto" name="projeto">
+              <label for="projeto">Participação em projetos científicos ou de desenvolvimento tecnológico, de caráter institucional.(100 pontos)</label>
+            </div>
+            <div class="inputs_lista">
+              <input type="checkbox" id="publi" name="publi">
+              <label for="publi">Colaboração em publicações científicas. (100 pontos)</label>
+            </div>
+            <li>Comunicação* (200)</li>
+            <div class="inputs_lista">
+              <input type="checkbox" id="linguas" name="linguas">
+              <label for="linguas">Conclusão de curso de idioma estrangeiro, em nível intermediário ou avançado, mediante apresentação de certificado de conclusão. (100 pontos)</label>
+            </div>
+            <div class="inputs_lista">
+              <input type="checkbox" id="prova" name="prova">
+              <label for="prova">Exames de proficiência em língua estrangeira (por exemplo, TOEFL, TOEI, IELTS, etc) (100 pontos)</label>
+            </div>
+            <li>Empreendedorismo (100)</li>
+            <div class="inputs_lista">
+              <input type="number" name="empreen" id="empreen">
+              <label for="empreen">Participação do estudante em formações sobre empreendedorismo. (20 pontos cada)</label>
+            </div>
+          </ol>
+          <p>* = Não pode zerado.</p>
+          <div class="btn_calcular">
+            <button onclick="calcular()">Calcular!</button>
+          </div>
+          <div class="btn_calcular">
+            <a href="https://zigzag-brain-2d7.notion.site/Deans-List-Year-1-75cae6ee8a7a46a494193080ffa047a9"><button>Template de pontos - Notion<br>Autor: Alessandro Schmidt</button></a>
+          </div>
+          <script>
+            function calcular(){
+              var valor_total = 0;
+              var primeiro = document.getElementById("voluntario").checked;
+              if (primeiro == true){
+                valor_total+=50;
+              }
+              var segundo = document.getElementById("monitoria").checked;
+              if (segundo == true){
+                valor_total+=50;
+              }
+              var terceiro = document.getElementById("cultura").checked;
+              if (terceiro == true){
+                valor_total+=50;
+              }
+              var quarto = document.getElementById("esporte").checked;
+              if (quarto == true){
+                valor_total+=50;
+              }
+              var quinto = document.getElementById("representante_turma").checked;
+              if (quinto == true){
+                valor_total+=50;
+              }
+              var sexto = document.getElementById("IRA").value;
+              if (sexto<=10 && sexto>0){
+                valor_total+=(sexto*20);
+              }else{
+                alert('IRA com nota inválida');
+              }
+              var setimo = document.getElementById("enade").value;
+              if (setimo<=100 && setimo>=0){
+                valor_total+=(setimo*1);
+              }else{
+                alert('ENADE com nota inválida');
+              }
+              var oitavo = document.getElementById("estagio").checked;
+              if (oitavo == true){
+                valor_total+=50;
+              }
+              var nono = document.getElementById("feiras").value;
+              if (nono>=0 && nono<=10){
+                valor_total+=(nono*20); 
+              }else{
+                alert('Você digitou um valor acima ou abaixo do permitido');
+              }
+              
+              var decimo = document.getElementById("pibic").checked;
+              if (decimo == true){
+                valor_total+=100;
+              }
+              
+              var onze = document.getElementById("projeto").checked;
+              if (onze == true){
+                valor_total+=100;
+              }
+              
+              var doze = document.getElementById("publi").checked;
+              if (doze == true){
+                valor_total+=100;
+              }
+              
+              var treze = document.getElementById("linguas").checked;
+              if (treze == true){
+                valor_total+=100;
+              }
+              
+              var catorze = document.getElementById("prova").checked;
+              if (catorze == true){
+                valor_total+=100;
+              }
+             
+              var quinze = document.getElementById("empreen").value;
+              if (nono>=0 && nono<=10){
+                valor_total+=(nono*20); 
+              }else{
+                alert('Você digitou um valor acima ou abaixo do permitido');
+              }
+              
+              alert('Nota estimada: '+valor_total+'/1000')
+
+            }
+          </script>
+        </div>
+      </div>
+
+    </main>
+    <!-- Optional JavaScript -->
+    <script src="js/script.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

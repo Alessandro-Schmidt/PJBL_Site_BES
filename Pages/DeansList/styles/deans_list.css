@@ -1,0 +1,65 @@
+.title_deans{
+    height: 150px;
+    background-color: #1141cf;
+    color: white;
+    text-align: center;
+    padding-top: 55px;
+    font-size: 35pt;
+}
+
+.explicacao{
+    margin-top: 35px;
+    margin-left: 15%;
+    text-align: justify;
+    width: 70%;
+    margin-bottom: 15px;
+}
+
+.btn_regulamento button{
+    background-color: #1141cf;
+    color: white;
+    border-radius: 5px;
+    width: 350px;
+    height: 50px;
+    transition: 0.3s;
+    margin-left: 537.5px;
+    margin-bottom: 15px;
+}
+
+.btn_regulamento button:hover {
+    background-color: white;
+    color: #1141cf;
+    border-radius: 20px;
+    width: 350px;
+    height: 50px;
+    margin-left: 537.5px;
+    margin-bottom: 15px;
+
+}
+
+.container_pontos{
+    margin-left: 15%;
+}
+
+
+
+
+
+.btn_calcular button{
+    background-color: #1141cf;
+    color: white;
+    border-radius: 5px;
+    width: 350px;
+    height: 50px;
+    transition: 0.3s;
+    margin-bottom: 15px;
+}
+
+.btn_calcular button:hover{
+    background-color: white;
+    color: #1141cf;
+    border-radius: 20px;
+    width: 350px;
+    height: 50px;
+    margin-bottom: 15px;
+}
