@@ -214,3 +214,11 @@ nav{
     ::-webkit-scrollbar-thumb {
     background: #9d1847;
     }
+
+    .apresentacao_ihc{
+        height: 35px;
+        text-align: center;
+        text-decoration: none;
+        color: #9d1847;
+        padding-top: 5px;
+    }
