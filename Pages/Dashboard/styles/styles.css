@@ -15,8 +15,12 @@
     justify-content: space-between;
 }
 
-.navbar img{
+.navbar a{
     width: 6%;
+}
+
+.navbar a img{
+    width: 100%;
 }
 
 .navbar a i{
