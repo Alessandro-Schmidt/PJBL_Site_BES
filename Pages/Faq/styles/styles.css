@@ -23,10 +23,17 @@
     width: 100%;
 }
 
-.navbar a i{
-    font-size: 30px;
+.signout{
+    font-size: 18px;
     text-decoration: none;
     color: #FFF;
+}
+
+.signout:hover{
+    font-size: 18px;
+    text-decoration: none;
+    color: #FFF;
+    text-decoration: none;
 }
 
 /*Cards*/
